@@ -1,3 +1,13 @@
+/**
+ * Demonstration object that stores a RGBA value in a 32 bit unsigned integer.
+ *   - demonstrats bit shifting and boolean operations to fetch the correct
+ *     byte for each color
+ *   - demonstrates converting number to string and web/hex/css syntax
+ *
+ * @copyright (c) 2020 Thomas Malt <thomas@malt.no>
+ * @author Thomas Malt <thomas@malt.no>
+ * @license MIT
+ */
 export default class RGBInt {
   #value: number;
 
